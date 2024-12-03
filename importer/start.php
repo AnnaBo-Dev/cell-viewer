@@ -6,6 +6,7 @@
 require_once __DIR__ . '/config/configImport.php'; 
 $dbconn = openConn();
 
+$success = null;
 if (isset($_POST['import'])) { 
     require_once __DIR__ . '/go.php'; 
 }
