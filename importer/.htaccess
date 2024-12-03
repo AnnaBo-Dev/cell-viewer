@@ -1,0 +1,4 @@
+AuthUserFile "/usr/www/users/wkkvic/cell-viewer/importer/.htpasswd"
+AuthName "Cell-Viewer Importer"
+AuthType Basic
+require valid-user
